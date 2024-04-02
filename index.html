@@ -1,11 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GuilhermePortifolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="grids">
+        <div class="head">
+            <img src="./img/Guilherme_Santana_Portifólio__1_-removebg-preview.png" alt="logo_portifólio"> <!--Meu Logotipo-->
+        </div>
+        <div class="grid">
+            <ul class="info"> <!--Botões Superiores-->
+                <a href="#sobremim"><li class="subtitle">Sobre mim</li></a>
+                <a href="#formacao"><li class="subtitle">Formação</li></a>
+                <a href="#portifolio"><li class="subtitle">Portofólio</li></a>
+                <a href="#entrecontato"><li class="subtitle">Contato</li></a>
+            </ul>
+        </div>
+    </header>
     
+    <main>
+        <section>
+            <div> <!--Paragrafo Sobre Mim-->
+                <br><br><br><br><br><br>
+                <h2 class="title1" id="sobremim">Sobre mim</h2>
+                <br>
+                <br>
+                <div class="myfoto">
+                    <p class="text">Sou Guilherme Santana, sou designer gráfico começando minha jornada pelo mundo da analise e desenvolvimento de sistemas, gosto de criar peças visuais de diferentes tipos e me interessei pelo front end que me chamou mais atenção pelas possibilidades.
+                        <br>Será um grande desafio me adaptar a outra área mas ainda sim fazendo o que eu gosto que é criar identidades com criativadade.</p>
+                    <img class="foto" src="./img/Foto.jpg" alt="Minha Foto"> <!--Minha foto-->
+                </div>
+            </div>
+        </section>
+        <section>
+            <div> <!--Paragrafo Formação-->
+                <br><br><br><br><br><br>
+                <h2 class="title1" id="formacao">Formação</h2>
+                <br><br>
+                <p class="text">Sou formado no ensino médio pela ETEC de Caraguatatuba em técnico em administração, formado em design gráfico na UNIP em são josé dos campos com experiência na área, atualmente estudo publicdade e propaganda e analise e desenvolvimento de sistemas. 
+                    <br>Pretendo me especializar em front end tentando agregar meus conhecimentos de outras áreas. </p>
+            </div>
+        </section>
+        <section>
+            <div> <!--Paragrafo Portifolio-->
+                <br><br><br><br><br><br>
+                <h2 class="title1" id="portifolio">Portifolio</h2>
+                <br><br>
+                <a href="https://guilhermesantana2000.github.io/landing-page/" target="_blank" id="hipertext">Landing Page</a>
+            </div>
+        </section>
+        <div class="interface"> <!--Contato-->
+            <br><br><br><br><br><br>
+            <h2 class="title1" id="entrecontato">Entre em contato comigo.</h2> 
+            
+            <!--Preenchimento de formulário-->
+            <div class="form">
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu Nome:" required="">
+                    <input type="text" name="" id="" placeholder="E-mail:" required="">
+                    <input type="text" name="" id="" placeholder="Telefone celular:">
+                    <textarea class="textarea" name="" id="" placeholder="Mensagem"></textarea>
+                    <div class="btn-enviar"><input type="submit" value="Enviar"></div>
+                </form>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
